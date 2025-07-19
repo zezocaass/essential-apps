@@ -15,6 +15,8 @@ apps=(
   "git"
   "curl"
   "wget"
+  "guake"
+  "fish"
 )
 # List of Flatpak applications to install
 flatpak_apps=(
