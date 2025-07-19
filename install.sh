@@ -16,10 +16,25 @@ apps=(
   "curl"
   "wget"
 )
+# List of Flatpak applications to install
+flatpak_apps=(
+   "com.spotify.Client"
+   "org.mozilla.Thunderbird"
+   "com.discordapp.Discord"
+   "org.telegram.desktop"
+   "com.rtosta.zapzap"
+)
 
-# Install packages
-for app in "${apps[@]}"; do
+# Install APT apps
+for app in "${apt_apps[@]}"; do
+  echo "Installing via apt: $app"
   sudo apt install -y "$app"
 done
 
-echo "Installation complete."
+# Install Flatpak apps
+for app in "${flatpak_apps[@]}"; do
+  echo "Installing via flatpak: $app"
+  flatpak install -y flathub "$app"
+done
+
+echo "All installations completed successfully."
