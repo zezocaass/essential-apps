@@ -19,11 +19,14 @@ This is a simple and lightweight shell script to automate the installation of ba
   🚀 How to Use
 
   1- Clone the repository
-    https://github.com/zezocaass/post-install-script.git
+  
+   git clone https://github.com/zezocaass/post-install-script.git
 
   2- Change Directory
-    cd post-install-script.git
+    
+   cd post-install-script.git
 
   3- Run the script with root permissions
-    sudo ./install.sh
+    
+   sudo ./install.sh
     
