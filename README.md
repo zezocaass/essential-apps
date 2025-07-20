@@ -3,6 +3,7 @@
 
 This is a simple and lightweight shell script to automate the installation of basic applications on a fresh Debian 12 (Bookworm) system.
 
+
 ✅ Features
 
   Updates APT package lists
@@ -14,6 +15,7 @@ This is a simple and lightweight shell script to automate the installation of ba
   Adds the Flathub repository
 
   Installs selected apps via Flatpak
+
 
 
   🚀 How to Use
