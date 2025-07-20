@@ -20,7 +20,7 @@ This is a simple and lightweight shell script to automate the installation of ba
 
   1- Clone the repository
   ```
-   git clone https://github.com/zezocaass/post-install-script.git
+   git clone https://github.com/zezocaass/essential-apps-script.git
   ```
   2- Change Directory
   ```bash
