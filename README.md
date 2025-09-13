@@ -24,7 +24,7 @@ This is a simple and lightweight shell script to automate the installation of ba
   ```
   2- Change Directory
   ```bash
-   cd post-install-script.git
+   cd essential-apps-script.git
   ```
   3- Run the script with root permissions
     
